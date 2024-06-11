@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background: #222;
+    padding: 0;
+    margin: 0;
+    
+    color: white; /* Default text color */
+}
+
+.top {
+    position: relative;
+    height: 10px;
+    background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 4vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjusted height to avoid pushing content out of view */
+}
+
+.QR-Header {
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    padding: 20px 0; /* Added padding for better spacing */
+    background-color: #333; /* Optional: background for visibility */
+}
+
+.QR-Header h1 {
+    font-size: 3.5vw;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.qr-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.qr-input::placeholder {
+    color: #aaa;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(141deg, darkcyan 0%, indigo 40%, darkmagenta 90%);
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px; /* Added space between footer and other content */
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer li {
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.footer a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+/* Style the QR code div */
+.qrcode { 
+    margin: 20px 0; 
+    align-items: center;
+} 
+  
+.sqrcode img,
+.qrcode img {
+    display: center;
+    margin: auto;
+}

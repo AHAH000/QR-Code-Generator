@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>QR Conventer</title>
+  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+   </script>
+   <link rel="icon" href="includes/Images/QR.ico" type="image/x-icon">
+   <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+
+      <div class="top"></div>
+      <div class="text">
+          <h1>QR Conventor</h1>
+      </div>
+      <div class="QR-Header">
+          <h1>Enter URL</h1>
+           
+          <div class="input-container">
+           <input type="text"
+  				placeholder="Paste a URL or enter text" class="qr-input"
+  				 />
+              <button onclick="generateQr() " class="submit-btn">Generate QR Code</button>
+          </div>
+          <div id="qrCodeContainer">
+             <div class="sqrcode"></div> 
+            <div class="qrcode"></div>
+          </div>
+      </div>
+      
+
+      <div class="footer">
+        <ul>
+            <li><a href="https://twitter.com/julesforrest">Twitter</a></li>
+            <li><a href="https://codepen.io/julesforrest">Codepen</a></li>
+            <li><a href="mailto:julesforrest@gmail.com">Email</a></li>
+            <li><a href="https://dribbble.com/julesforrest">Dribbble</a></li>
+            <li><a href="https://github.com/julesforrest">Github</a></li>
+            <li><p>👋</p></li>
+        </ul>
+    </div>
+  
+      <script src="js/js.js"></script> <!-- Link to external JavaScript file -->
+  </body>
+</body>
+</html>
